@@ -6,8 +6,12 @@ import Inicio from "../components/ServiciosInicio";
 import Enviar from "../components/ContactoEnviar"
 import Contenido from "../components/ServiciosContenido";
 import Ws from "../components/wsBtn";
+import { useEffect } from 'react';
 
 export default function Servicios() {
+  useEffect(() => {
+    document.title = 'Servicios - Nouma Trading & Logistics'
+  }, [])
   return(
     <>
       <div className='font-Pthin'>

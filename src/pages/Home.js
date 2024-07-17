@@ -5,8 +5,12 @@ import Inicio2 from "../components/Inicio2";
 import Enviar from "../components/ContactoEnviar";
 import Footer from "../components/footer";
 import Ws from "../components/wsBtn";
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    document.title = 'Inicio - Nouma Trading & Logistics'
+  }, [])
     return(
       <>
         <div className='font-Pthin'>
