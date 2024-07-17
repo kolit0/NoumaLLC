@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 
 export default function Home() {
   useEffect(() => {
-    document.title = 'Inicio - Nouma Trading & Logistics'
+    document.title = 'Home - Nouma Trading & Logistics'
   }, [])
     return(
       <>
