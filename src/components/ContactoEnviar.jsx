@@ -45,7 +45,7 @@ function Contactar({children}) {
 
             </div>
             <div className=" flex flex-col px-5 w-full">
-                <div className='bg-[#0e1852] text-gray-300 w-full md:h-[8rem]  md:py-5 h-16 content-center place-items-center' style={{
+                <div className='bg-[#0e1852] text-gray-300 w-full md:h-[8rem]  md:py-5 h-auto py-2 content-center place-items-center' style={{
                 transform: isInView ? "none" : "translateY(-200px)",
                 opacity: isInView ? 1 : 0,
                 transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
