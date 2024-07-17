@@ -19,16 +19,16 @@ export default function Servicios() {
           <Sidebar/>
           <Ws />
         </div>
-        <div className='flex pl-20 z-0'>
+        <div className='flex md:pl-20 z-0'>
           <Directorio/>
         </div>
-        <div className='flex pl-20 z-0'>
+        <div className='flex md:pl-20 z-0'>
           <Inicio/>
         </div>
-        <div className='flex pl-20 z-0'>
+        <div className='flex md:pl-20 z-0'>
           <Contenido/>
         </div>
-        <div className='flex pl-20 z-0'>
+        <div className='flex md:pl-20 z-0'>
           <Enviar/>
         </div>
         <div className='flex pl-20 z-0'>

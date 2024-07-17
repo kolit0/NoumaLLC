@@ -18,16 +18,16 @@ export default function Contact() {
           <Sidebar/>
           <Ws />
         </div>
-        <div className='flex ml-20 z-0'>
+        <div className='flex md:ml-20 z-0'>
           <ContactoDirectorio/>
         </div>
-        <div className='flex ml-20 z-0'>
+        <div className='flex md:ml-20 z-0'>
           <ContactoInicio/>
         </div>
-        <div className='flex ml-20 z-0'>
+        <div className='flex md:ml-20 z-0'>
           <ContactoEnviar/>
         </div>
-        <div className='flex pl-20 z-0'>
+        <div className='flex md:pl-20 z-0'>
           <Footer/>
         </div>
       </div>
