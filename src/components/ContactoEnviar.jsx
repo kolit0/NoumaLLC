@@ -51,7 +51,7 @@ function Contactar({children}) {
                 transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                 }} ref={ref}>
                 {children}
-                    <h2 className='md:text-5xl text-2xl text-center border-b-2 border-[#00c08d] mx-4'>{t("contact.title")}</h2>
+                    <h2 className='md:text-5xl text-xl text-center border-b-2 border-[#00c08d] mx-4'>{t("contact.title")}</h2>
                 </div>
             
                 <form onSubmit={submitHandler} className="mt-2 md:mx-10 mx-5 h-auto  flex flex-col bg-white] gap-y-[0.10rem] rounded-md">
