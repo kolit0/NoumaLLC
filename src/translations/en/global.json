@@ -16,7 +16,7 @@
         "contact": "Contact"
     },
     "home": {
-        "title": "Trading & Logistics",
+        "title": "Nouma Trading & Logistics",
         "text": "We offer you logistical services and solutions for the import and export of cargo from Venezuela and the United States.",
         "subtitle": "TRANSPORT SERVICES:",
         "miniSubtitle": "Inland Transportation",
@@ -57,7 +57,11 @@
         "pt9": "Aragua (Maracay)",
         "pt10": "The route is consolidated and is coordinated based on the number of kilos per area.",
         "pt11": "Central Areas (Foreigners are charged the additional fee for the stop)",
-        "pt12": "Purchases of a minimum of 1 drum and/or 8 bags or boxes"
+        "pt12": "Purchases of a minimum of 1 drum and/or 8 bags or boxes",
+        "pt13": "international shopping",
+        "pt14": "Air Transportation",
+        "pt15": "Inland Transportation",
+        "pt16": "Sea Transportation"
     },
     "footer": {
         "text": "© 2023 Nouma Trading & Logistics. J-41304784-5 All rights reserved."

@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 
 function Sidebar (){
   const [t] = useTranslation("global");
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const [submenuopen2, setSubmenuOpen2] = useState(false);
   const Menus = [
     { title: t("sidebar.home"), icon: <FiHome />, href: "../Home"},
@@ -36,8 +36,7 @@ function Sidebar (){
   return (
     <section className="sticky top-0 flex-row">
         <div className="flex">
-            <div className={`bg-[#0079FF] h-screen ${open ? "md:w-72 w-60 md:opacity-100 opacity-95" : "md:w-20 w-0"} duration-500 absolute z-10`}
-            >
+            <div className={`bg-[#0079FF] h-screen ${open ? "md:w-72 w-60 md:opacity-100 opacity-95" : "md:w-20 w-0"} duration-500 absolute z-10`}>
                 <BsArrowLeftShort className={`bg-white text-[#0079FF] text-3xl rounded-full absolute -right-10 top-9 border border-blue-500 cursor-pointer -mt-2 ${!open && "rotate-180"}`} onClick={() => setOpen(!open) & setSubmenuOpen2(!submenuopen2)}/>
 
                 <div className={` bg-white ${!open ? "w-[5rem] items-center md:inline-flex hidden  h-20 px-4": "md:px-16 pl-8"} ${!open ? " py-4 pb-0 duration-500": " flex justify-center"}`}>
@@ -54,7 +53,6 @@ function Sidebar (){
                         <li key={index} className={`text-gray-300 text-xl flex items-center gap-x-4 cursor-pointer p-2 hover:bg-[#00DFA2] hover:text-black ${menu.spacing ? "mt-9" : "mt-2"} mt-2  border-b-2`} >
                             <a className="text-2xl block float-left" href={menu.href}>
                             {menu.icon ? menu.icon : <MdSpaceDashboard/>}
-                            
                             </a>
                             <a href={menu.href} className={`text-base font-medium flex-1 duration-500 ${!open && "hidden"}`}>{menu.title}</a>
                             {menu.submenu2 && open && (

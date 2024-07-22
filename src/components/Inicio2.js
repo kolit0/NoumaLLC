@@ -21,7 +21,7 @@ function Section({ children }) {
         <div className='h-screen shrink md:w-80 w-10 md:bg-white backdrop-blur-md'>
         </div>
       </div>
-      <div className='flex-col absolute md:grid md:grid-cols-3 h-screen md:ml-60 md:place-items-start  place-items-center z-10 max-md:space-y-10'>
+      <div className='flex-col absolute md:grid md:grid-cols-3 h-screen md:ml-60 md:place-items-start  place-items-center z-10 max-md:space-y-10 max-md:px-5 pr-40'>
         <div className='bg-[#0e1852] flex text-gray-300 w-auto max-w-[30rem] md:max-h-40 md:h-auto md:py-5 h-20 content-center place-items-center' style={{
           transform: isInView ? "none" : "translateX(-200px)",
           opacity: isInView ? 1 : 0,
@@ -30,7 +30,7 @@ function Section({ children }) {
           {children}
         <h2 className='md:text-4xl text-2xl text-center border-b-2 border-[#00c08d] mx-4'>{t("home.subtitle")}</h2>
         </div>
-        <div className='self-center flex justify-center  bg-gray-300 bg-opacity-40 backdrop-blur-md text-[#0e1852] w-auto max-w-[30rem] md:max-h-52 md:h-auto md:py-5 h-20 place-items-center content-center'style={{
+        <div className='self-center flex justify-center bg-gray-300 bg-opacity-40 backdrop-blur-md text-[#0e1852] w-auto max-w-[30rem] md:max-h-52 md:h-auto md:py-5 h-20 place-items-center content-center'style={{
           transform: isInView2 ? "none" : "translateX(-200px)",
           opacity: isInView2 ? 1 : 0,
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
