@@ -18,7 +18,7 @@ function Section2() {
                     </div>
                     <div className="flex space-x-2 text-black">
                         <FiPhoneCall className="mt-1 text-[min(3vw,1.2rem)] inline-flex"/>
-                        <p className=" text-[min(3vw,1.2rem)] inline-flex">+58-241-8336097</p>
+                        <p className=" text-[min(3vw,1.2rem)] inline-flex">+1 (407) 561-0830</p>
                     </div>
                 </div>
                 <div className="p-5 bg-gray-100 h-auto w-auto flex-col place-content-center flex gap-5">
