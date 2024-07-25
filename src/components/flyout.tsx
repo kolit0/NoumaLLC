@@ -16,7 +16,7 @@ export default function Flyout() {
   ]
   return (
     <Popover className="relative">
-      <PopoverButton className=" text-white inline-flex items-center px-5 py-2 text-2xl hover:text-[#00DFA2] duration-100 font-semibold border-l-2 border-l-white">
+      <PopoverButton className=" text-white inline-flex items-center px-3 py-2 text-2xl hover:text-[#00DFA2] duration-100 font-semibold border-l-2 border-l-white">
         <BiWorld  aria-hidden="true" />
       </PopoverButton>
 
