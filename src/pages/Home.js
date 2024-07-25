@@ -4,7 +4,6 @@ import Inicio from "../components/Inicio";
 import Inicio2 from "../components/Inicio2";
 import Enviar from "../components/ContactoEnviar";
 import Footer from "../components/footer";
-import Ws from "../components/wsBtn";
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
         <div className='font-Pthin'>
             <div className='z-20 sticky top-0'>
               <Sidebar/>
-              <Ws/>
             </div>
             <div className='flex md:ml-20 z-0'>
               <Inicio></Inicio>

@@ -5,7 +5,6 @@ import Directorio from "../components/ServiciosDirectorio";
 import Inicio from "../components/ServiciosInicio";
 import Enviar from "../components/ContactoEnviar"
 import Contenido from "../components/ServiciosContenido";
-import Ws from "../components/wsBtn";
 import { useEffect } from 'react';
 
 export default function Servicios() {
@@ -17,7 +16,6 @@ export default function Servicios() {
       <div className='font-Pthin'>
         <div className='z-20 sticky top-0'>
           <Sidebar/>
-          <Ws />
         </div>
         <div className='flex md:pl-20 z-0'>
           <Directorio/>
